@@ -3,18 +3,6 @@ using Microsoft.SemanticKernel.ChatCompletion;
 using Microsoft.SemanticKernel.Connectors.OpenAI;
 using Kernel = Microsoft.SemanticKernel.Kernel;
 
-// See https://aka.ms/new-console-template for more information
-//Console.WriteLine("Hello, World!");
-
-//var client = new HttpClient();
-//var request = new HttpRequestMessage(HttpMethod.Post, "http://localhost:65527/v1/chat/completions");
-//var content = new StringContent("{\n  \"messages\": [\n    {\n      \"content\": \"You are a helpful assistant.\",\n      \"role\": \"system\"\n    },\n    {\n      \"content\": \"What is the capital of France?\",\n      \"role\": \"user\"\n    }\n  ]\n}", null, "application/json");
-//request.Content = content;
-//var directResponse = await client.SendAsync(request);
-//directResponse.EnsureSuccessStatusCode();
-//Console.WriteLine(await directResponse.Content.ReadAsStringAsync());
-
-
 var modelId = "doesntmatter";
 // local Podman Desktop endpoint
 var endpoint = new Uri("http://localhost:65527");
