@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35208.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PodmanAISemanticKernel", "PodmanAISemanticKernel.csproj", "{52F86E9E-C134-4BB3-B3B0-1FAC20FE6D41}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52F86E9E-C134-4BB3-B3B0-1FAC20FE6D41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52F86E9E-C134-4BB3-B3B0-1FAC20FE6D41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52F86E9E-C134-4BB3-B3B0-1FAC20FE6D41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52F86E9E-C134-4BB3-B3B0-1FAC20FE6D41}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D712C2A0-DC30-4F4E-AB90-549CD685EDE7}
+	EndGlobalSection
+EndGlobal
